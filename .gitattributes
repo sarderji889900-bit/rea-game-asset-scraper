@@ -1,0 +1,13 @@
+docs/*.html linguist-vendored
+dist/* linguist-vendored
+
+Cargo.lock linguist-generated
+*.woff2 binary
+vendor/* linguist-vendored
+
+*.sh text eol=lf
+*.json linguist-detectable=false
+
+src/**/*.tsx linguist-detectable
+docs/index.html linguist-vendored
+*.md linguist-documentation
